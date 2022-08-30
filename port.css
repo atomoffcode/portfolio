@@ -1,0 +1,41 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color:#565C5E ;
+    color: #DFDBD8;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+.nav{
+    /* padding: 60px; */
+    position: fixed;
+    width: 100%;
+    height: auto;
+    font-size: 32px;
+    box-shadow: 2px 2px #DFDBD8;
+    background-color: #565C5E;
+    top: 0;
+    
+
+}
+.nav__brand{
+    /* position: absolute; */
+    float: left;
+    padding: 60px;
+}
+.nav__inner{
+    float: right;
+    padding: 60px;
+
+}
+ul{
+    margin: 0;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color:#DFDBD8;
+    padding-left: 50px;
+}
